@@ -1,0 +1,76 @@
+:root {
+    --color-1: #94618E;
+    --color-2: #49274A;
+    --color-3: #F4DECB;
+    --color-4: #F8EEE7;
+    font-family: 'Proza Libre'
+}
+
+body {height: 100%; margin: 0; background: #abc}
+header {background: var(--color-1)}
+
+
+
+
+.settings, .results {
+
+    padding: 10px
+    
+}
+
+.results-window {
+    border: solid 1px;
+    margin: 10px 0;
+    height: 553px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.box {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.box > span {
+    font-size: 100px;
+    font-family: 'Proza Libre';
+    font-weight: 600
+}
+
+.option {
+    padding: 10px 30px;
+    border: solid 1px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.option > label {
+    padding: 10px
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
